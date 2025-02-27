@@ -1,0 +1,89 @@
+.hero {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+  }
+  .hero .hero-content {
+    text-align: center;
+    position: absolute;
+  }
+  
+  .hero .overlay-itro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .hero .hero-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+
+  /* komoditas */
+.komoditas{
+  background-color: #0F3460;
+}
+  /* akhir komoditas */
+.work-box{
+  box-shadow: 0px 13px 8px -10px rgba(0, 0, 0, 0.3);
+}
+.image-berita{
+  border-radius: 15px;
+  padding:0;
+  box-shadow: 0px 13px 8px -10px rgba(0, 0, 0, 0.3);
+}
+.image-berita img{
+  border-radius: 15px;
+}
+
+
+.breadcrumb {
+  background-color: #0F3460;
+  padding: 20px;
+  margin-top: -12px;
+}
+
+.breadcrumb .breadcrumb-item:before {
+  color: #ffffff;
+}
+
+.breadcrumb .breadcrumb-item.active {
+  color: rgb(255, 0, 0);
+}
+
+.breadcrumb a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.card-img-overlay{
+  padding-top: 250px;
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+h1.text-hero{
+  color: #fff;
+  margin-top: -200px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+p.text-hero{
+  color: #fff;
+  margin-top: -100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
